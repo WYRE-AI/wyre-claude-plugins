@@ -1,0 +1,28 @@
+{
+  "$schema": "https://www.schemastore.org/claude-code-marketplace.json",
+  "name": "wyre-claude-plugins",
+  "description": "Curated Claude Code plugins for line-of-business systems — ERPs, databases, and vertical apps reached through generic on-prem connectors (MSSQL, Postgres, MySQL, ODBC bridges). Curated schema knowledge as skills, not vendor-specific servers.",
+  "version": "0.1.0",
+  "owner": {
+    "name": "WYRE Technology",
+    "email": "aaron@sachshaus.net"
+  },
+  "plugins": [
+    {
+      "name": "sage100",
+      "source": "./plugins/sage/sage100",
+      "description": "Sage 100 ERP (Standard/Advanced/Premium) - read-only AR, AP, GL, sales-order, and inventory reporting over Conduit's generic SQL connector",
+      "category": "erp",
+      "tags": [
+        "sage",
+        "sage100",
+        "erp",
+        "accounting",
+        "on-prem",
+        "mssql",
+        "odbc",
+        "read-only"
+      ]
+    }
+  ]
+}

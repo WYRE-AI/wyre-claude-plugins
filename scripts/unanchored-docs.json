@@ -1,0 +1,14 @@
+{
+  "_rationale": [
+    "Skills, agents and commands that describe an operation while naming zero MCP tools.",
+    "scripts/tool-drift-audit.mjs only checks tools that are NAMED, so these documents",
+    "pass every automated check no matter what they claim — the checkpoint-avanan class (#204).",
+    "Rewriting them needs per-vendor tool ground truth, which CI does not have, so they are",
+    "inventoried here instead. scripts/check-tool-anchoring.mjs fails on any unit NOT listed",
+    "(no new un-anchored docs) and on any listed unit that is gone or now names tools (no",
+    "stale entries). The list can therefore only shrink.",
+    "Regenerate with: node scripts/check-tool-anchoring.mjs --update"
+  ],
+  "_seeded": "2026-08-06, from the state left by #181/#195/#196/#202/#204/#205.",
+  "units": {}
+}
