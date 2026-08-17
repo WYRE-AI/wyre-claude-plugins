@@ -41,7 +41,7 @@ Plugins are consumed two ways:
    the skills over MCP to connected clients (skills show up alongside the
    org's connector tools).
 2. **Claude Code marketplace** — `claude plugin marketplace add
-   wyre-technology/wyre-claude-plugins`, then install individual plugins.
+   wyre-ai/wyre-claude-plugins`, then install individual plugins.
 
 ## Repository layout
 

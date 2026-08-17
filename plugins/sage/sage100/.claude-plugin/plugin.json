@@ -5,7 +5,7 @@
   "author": {
     "name": "WYRE Technology"
   },
-  "homepage": "https://github.com/wyre-technology/wyre-claude-plugins",
-  "repository": "https://github.com/wyre-technology/wyre-claude-plugins",
+  "homepage": "https://github.com/wyre-ai/wyre-claude-plugins",
+  "repository": "https://github.com/wyre-ai/wyre-claude-plugins",
   "license": "Apache-2.0"
 }
