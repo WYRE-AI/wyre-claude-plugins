@@ -6,10 +6,10 @@ editable event catalog so the skill stays current without a website.
 ## How to add or update
 
 1. Add a row (or edit an existing one) in the table below.
-2. Set `active` to `yes` while the banner should be the default when a
-   user asks to “add the event” without naming dates.
-3. After the event, set `active` to `no` or delete the row, then
-   regenerate signatures without the event row.
+2. Set `active` to `yes` while that row should resolve unnamed “add the
+   event” requests. Active does **not** auto-insert on a plain signature.
+3. After the event, set `active` to `no` or delete the row so unnamed
+   requests stop resolving to it.
 4. For a one-off line the user dictates (“Meet us at …”), you do not need
    to edit this file — use their copy for that render only.
 

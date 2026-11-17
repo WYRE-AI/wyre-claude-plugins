@@ -55,7 +55,7 @@ are defaults the user may override. **No cell numbers** — ask at runtime.
 | Default booking | `https://cal.wyre.ai` when they want Cadence; omit the button if they do not |
 | Address | 1010 Georgia Avenue, Suite 600A, Chattanooga, TN 37402 |
 | Product CTA (variant c well) | Managed IT that stays ahead of the curve. → linking to the Technology website |
-| Social | Optional — reuse the same icon assets; point links at the Technology company pages the user confirms |
+| Social | Omit until the user confirms Technology destinations — do not reuse AI LinkedIn/YouTube URLs |
 
 WYRE Technology does not share the AI roster. Always take name, title, and
 email as inputs. Example worked files use Aaron Sachs /

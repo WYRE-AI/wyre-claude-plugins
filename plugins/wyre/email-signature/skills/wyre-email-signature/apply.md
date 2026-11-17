@@ -19,8 +19,10 @@ editors shows markup instead of the signature.
 3. Click into the edit box and paste (Ctrl+V).
 4. Choose it under “New messages” and “Replies/forwards”, then OK.
 
-Tip: if paste looks wrong, open the example `.html` in a browser, select
-the signature, copy, then paste into the Outlook editor.
+Tip: if paste looks wrong, save the generated HTML to a file, open that
+file in a browser, select the rendered signature, copy, then paste into
+the Outlook editor. Do not use the skill’s example files — they may show
+someone else’s details.
 
 ## Outlook desktop — Mac
 
@@ -29,8 +31,7 @@ the signature, copy, then paste into the Outlook editor.
 2. Create a signature, paste into the body.
 3. Assign it to the account for new mail and replies.
 
-Same browser-select-copy fallback as Windows if the rich paste strips
-images.
+Same save-open-copy fallback as Windows if the rich paste strips images.
 
 ## Gmail
 

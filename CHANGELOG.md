@@ -9,12 +9,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- `wyre-email-signature` plugin (0.1.0): skill that generates Outlook- and
+- `wyre-email-signature` plugin (0.1.1): skill that generates Outlook- and
   Gmail-safe WYRE AI / WYRE Technology HTML signatures (inputs, brand
   constants, Cadence booking, optional event banner via `events.md`,
   install steps), with Aaron Sachs example HTML for Technology (with and
   without Channel Partners Orlando) and WYRE AI. Replaces the retired
-  sig.wyre.ai generator website; does not modify `wyre-sig`.
+  sig.wyre.ai generator website; does not modify `wyre-sig`. Event
+  banners are opt-in; Technology examples omit unconfirmed social links;
+  paste fallback uses the user’s generated HTML.
 - Marketplace scaffolding: `.claude-plugin/marketplace.json`, contribution
   guide, skill template, and CI validators (marketplace drift, doc
   references, tool anchoring) adapted from msp-claude-plugins.

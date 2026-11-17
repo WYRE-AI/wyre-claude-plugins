@@ -40,7 +40,7 @@ So this marketplace pairs:
 | Plugin | System | Status |
 |---|---|---|
 | [`sage100`](./plugins/sage/sage100) | Sage 100 ERP (Standard / Advanced / Premium) | 🟢 0.1.0 — six skills, read-only |
-| [`wyre-email-signature`](./plugins/wyre/email-signature) | WYRE AI / WYRE Technology HTML email signatures | 🟢 0.1.0 — replaces sig.wyre.ai |
+| [`wyre-email-signature`](./plugins/wyre/email-signature) | WYRE AI / WYRE Technology HTML email signatures | 🟢 0.1.1 — replaces sig.wyre.ai |
 
 Example prompts for signatures: “Make me a WYRE Technology signature”,
 “Add Channel Partners Orlando to my signature for Mar 2027”.

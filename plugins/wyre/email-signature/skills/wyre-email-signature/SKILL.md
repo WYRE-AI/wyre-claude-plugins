@@ -61,10 +61,11 @@ supplies them.
    `https://cal.wyre.ai/aaron/intro`).
 5. Render the chosen variant from [template.md](template.md). Prefer
    variant **c** unless the user picks another.
-6. If an event is active or requested, prepend the event row from
-   [events.md](events.md). To remove an event after it ends, re-render
-   without that row (and clear or mark the event inactive in `events.md`
-   when updating the skill for everyone).
+6. Prepend an event row **only when the user asks for an event** (named
+   or “add the event”). Resolve an unnamed request from the `active`
+   entry in [events.md](events.md). An explicit “remove the event line”
+   request wins: re-render with no event row. Mark events inactive in
+   `events.md` after they end so unnamed requests stay accurate.
 7. Return the HTML fragment in a fenced `html` block, plus a one-line
    reminder of how to paste it (details in [apply.md](apply.md)).
 
