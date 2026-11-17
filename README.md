@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="./LICENSE"><img src="https://img.shields.io/badge/license-Apache%202.0-blue.svg" alt="License"></a>
-  <a href="./CHANGELOG.md"><img src="https://img.shields.io/badge/plugins-1-teal.svg" alt="Plugins"></a>
+  <a href="./CHANGELOG.md"><img src="https://img.shields.io/badge/plugins-2-teal.svg" alt="Plugins"></a>
   <a href="https://github.com/WYRE-AI/wyre-claude-plugins/actions"><img src="https://img.shields.io/github/actions/workflow/status/WYRE-AI/wyre-claude-plugins/validate.yml?branch=main&label=CI" alt="CI"></a>
   <a href="./CONTRIBUTING.md"><img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg" alt="Contributions welcome"></a>
 </p>
@@ -40,6 +40,10 @@ So this marketplace pairs:
 | Plugin | System | Status |
 |---|---|---|
 | [`sage100`](./plugins/sage/sage100) | Sage 100 ERP (Standard / Advanced / Premium) | 🟢 0.1.0 — six skills, read-only |
+| [`wyre-email-signature`](./plugins/wyre/email-signature) | WYRE AI / WYRE Technology HTML email signatures | 🟢 0.1.0 — replaces sig.wyre.ai |
+
+Example prompts for signatures: “Make me a WYRE Technology signature”,
+“Add Channel Partners Orlando to my signature for Mar 2027”.
 
 Planned next (matching Conduit's connector roadmap): IQMS / DELMIAworks
 (Oracle), generic Postgres/MSSQL starter packs, and further ERP verticals.

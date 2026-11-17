@@ -1,0 +1,11 @@
+{
+  "name": "wyre-email-signature",
+  "version": "0.1.0",
+  "description": "Generate Outlook- and Gmail-safe WYRE AI / WYRE Technology email signatures as self-contained HTML — replacement for the retired sig.wyre.ai generator.",
+  "author": {
+    "name": "WYRE Technology"
+  },
+  "homepage": "https://github.com/wyre-ai/wyre-claude-plugins",
+  "repository": "https://github.com/wyre-ai/wyre-claude-plugins",
+  "license": "Apache-2.0"
+}

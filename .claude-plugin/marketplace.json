@@ -2,7 +2,7 @@
   "$schema": "https://www.schemastore.org/claude-code-marketplace.json",
   "name": "wyre-claude-plugins",
   "description": "Curated Claude Code plugins for line-of-business systems — ERPs, databases, and vertical apps reached through generic on-prem connectors (MSSQL, Postgres, MySQL, ODBC bridges). Curated schema knowledge as skills, not vendor-specific servers.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "owner": {
     "name": "WYRE Technology",
     "email": "aaron@sachshaus.net"
@@ -22,6 +22,20 @@
         "mssql",
         "odbc",
         "read-only"
+      ]
+    },
+    {
+      "name": "wyre-email-signature",
+      "source": "./plugins/wyre/email-signature",
+      "description": "Generate Outlook- and Gmail-safe WYRE AI / WYRE Technology email signatures as HTML — replaces the retired sig.wyre.ai generator",
+      "category": "productivity",
+      "tags": [
+        "email",
+        "signature",
+        "wyre",
+        "outlook",
+        "gmail",
+        "html"
       ]
     }
   ]
