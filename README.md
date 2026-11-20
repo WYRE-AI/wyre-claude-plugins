@@ -13,7 +13,7 @@
 
 Curated, publicly available Claude Code plugins for **line-of-business
 systems** — the counterpart to
-[msp-claude-plugins](https://github.com/wyre-technology/msp-claude-plugins)
+[msp-claude-plugins](https://github.com/WYRE-AI/msp-claude-plugins)
 for systems that live behind the customer's firewall instead of behind a
 cloud API.
 
